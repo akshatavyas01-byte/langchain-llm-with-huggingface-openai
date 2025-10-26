@@ -7,7 +7,9 @@ Each example demonstrates how to use hosted Hugging Face models for various natu
 --------
 Contents
 --------
+
 1.Translator:
+  
   -Uses PromptTemplate.
   
   -Uses the Hugging Face token with its wrapper HuggingFaceEndpoint.
@@ -26,6 +28,7 @@ Contents
 
   
 2.Summarization
+ 
   -Uses PromptTemplate.
   
   -Uses the Hugging Face token with its wrapper HuggingFaceEndpoint.
@@ -45,6 +48,7 @@ Contents
 
 
 3.Rephraser
+ 
   -Uses both PromptTemplate and ChatPromptTemplate.
   
   -Uses the Hugging Face token with the HuggingFaceEndpoint wrapper.
@@ -77,6 +81,7 @@ Requirements:
   Choose Read (instead of Fine-grained), name your token, and create it.
   
   Copy the token — this will be used to access models on Hugging Face Inference.
+ ⚠️ Important: Store it safely in a .env file.
   
 -Cost:
   Creating and using a Hugging Face token is free for the standard tier (usage up to $100 per month reset monthly).

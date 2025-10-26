@@ -57,4 +57,23 @@ Contents
 --------------
 Requirements
 --------------
-1.
+1.How to get OPENAI API_KEY:
+  -Go to 👉 https://platform.openai.com/api-keys
+
+  -Log in with your OpenAI account.
+
+  -Click “+ Create new secret key.”
+
+  -Give it a name (e.g., langchain-project).
+
+  -Copy the key — it will look something like:
+
+  -sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+⚠️ Important: You can only view it once! Store it safely in a .env file.
+Cost: Free till usage of $5
+
+2.Install Requirements
+
+  -Load dependencies from the requirements.txt file located in the main repository:
+
+        pip install -r ../requirements.txt
